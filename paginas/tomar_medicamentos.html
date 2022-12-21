@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toma de medicamentos</title>
+    <link rel="stylesheet" href="../estilos/toma_medicamentos.css">
+</head>
+<body>
+    <h1>Programador de medicamentos</h1>
+
+<!-- Gráfico grande con imágenes de pastillas -->
+<div class="contenedor-grid">
+    <button class="btn-img">
+        <img src="../imagenes_medicamentos/pastilla1.jpg" alt="Texto alternativo">
+        <span>Metilprednisolona</span>
+      </button>
+      <button class="btn-img">
+        <img src="../imagenes_medicamentos/pastilla2.jpg" alt="Texto alternativo">
+        <span>Migradol</span>
+      </button>
+      <button class="btn-img">
+        <img src="../imagenes_medicamentos/pastilla3.jpg" alt="Texto alternativo">
+        <span>Ibuprofeno</span>
+      </button>
+      <button class="btn-img">
+        <img src="../imagenes_medicamentos/pastilla4.jpg" alt="Texto alternativo">
+        <span>Losartan potasico</span>
+      </button>
+      <button class="btn-img">
+        <img src="../imagenes_medicamentos/pastilla5.jpg" alt="Texto alternativo">
+        <span>Ditopax</span>
+      </button>
+      <button class="btn-img">
+        <img src="../imagenes_medicamentos/pastilla6.jpg" alt="Texto alternativo">
+        <span>Omeprazol</span>
+      </button>
+</div>
+
+<!-- Formulario para seleccionar la hora de la toma -->
+<div class="toma-medicamentos">
+    <form>
+        <label for="time">Selecciona la hora de la toma:</label><br>
+        <input class="input-time" type="time" id="time" name="time"><br>
+        <input class="btn-programar" type="submit" value="Programar">
+      </form> 
+</div>
+<div class="volver">
+    <a href="../index.html">
+      <button class="btn-regresar">Regresar</button>
+    </a>
+  </div>
+
+
+</body>
+</html>

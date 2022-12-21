@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  a {
+    text-decoration: none;
+  }
+  button:hover {
+    background-color: #666;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  button span {
+    display: block; /* Muestra el texto debajo de la imagen */
+    text-align: center; /* Alineación centrada */
+    font-size: 1.2em; /* Tamaño de fuente un poco mayor */
+    margin-top: 10px; /* Margen superior */
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  .btn-img {
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    margin: 10px;
+    padding: 20px; /* Aumentamos el tamaño del contenedor */
+    background-color: #fff;
+    border: none;
+    border-radius: 10px; /* Aumentamos el radio del borde redondeado */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .btn-img img {
+    max-width: 80px; /* Aumentamos el tamaño de la imagen */
+    max-height: 80px;
+    margin-right: 10px;
+  }
+  .btn-img span {
+    font-size: 24px; /* Aumentamos el tamaño del texto */
+    color: #333;
+  }
+  .contenedor-grid{
+    display: flex; /* Muestra los elementos hijos en línea */
+    justify-content: center;
+
+  }
+
+  .contenedor {
+    display: grid; /* Muestra los elementos hijos en una cuadrícula */
+    grid-template-columns: repeat(2, 1fr); /* Divide la cuadrícula en dos columnas de tamaño igual */
+    grid-template-rows: repeat(2, 1fr); /* Divide la cuadrícula en dos filas de tamaño igual */
+    gap: 20px; /* Espacio entre las celdas */
+
+  }
+ /* Estilos para el contenedor del chatbot */
+.chatbot-container {
+    position: fixed; /* Fija el elemento en una posición específica de la página */
+    bottom: 20px; /* Fija el elemento en la parte inferior de la página */
+    right: 20px; /* Fija el elemento en la parte derecha de la página */
+    width: 500px; /* Ancho fijo */
+    height: 400px; /* Alto fijo */
+    border: 1px solid #333; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: auto; /* Muestra una barra de scroll si es necesario */
+  }
+  
+  /* Estilos para el encabezado del chatbot */
+  .chat-header {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  /* Estilos para el título del encabezado */
+  .chat-header h1 {
+    font-size: 2em; /* Tamaño de fuente mayor */
+    font-weight: bold; /* Negrita */
+    color: #f5f5f5;
+  }
+  
+  /* Estilos para los mensajes del chatbot */
+  .chat-messages {
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilos para el contenedor de cada mensaje */
+  .message-container {
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  /* Estilos para el remitente */
+  .message-sender {
+    font-weight: bold; /* Negrita */
+  }
+  
+  /* Estilos para el texto de cada mensaje */
+  .message-text {
+    font-size: 1.2em; /* Tamaño de fuente mayor */
+  }
+  
+  /* Estilos para el formulario de entrada de mensajes */
+  .chat-input {
+    display: flex; /* Muestra los elementos hijos en línea */
+    justify-content: space-between; /* Distribuye los elementos hijos equitativamente */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
+    background-color: #f5f5f5; /* Fondo claro */
+    padding: 20px; /* Espaciado interno */
+  }
